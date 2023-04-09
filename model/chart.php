@@ -6,6 +6,7 @@ include_once 'AppModel.php';
 $model_obj = new Model_app();
 
 if(isset($_GET['myChart']) and isset($_GET['year'])) {
+    
     $year = $_GET['year'];
 
     // number of male in groupes 

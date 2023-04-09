@@ -29,7 +29,7 @@ class AppController
                 if($data == 0 or $data == 1) {
                     unset($data);
                 }
-                include_once './template/show.php';
+                include_once './template/home.php';
             } else {
                 $logout =  new Logout();
                 $_SESSION['feedback'] = 'login ou mos de pass inccorect !!';
