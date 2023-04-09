@@ -90,6 +90,9 @@ class AppController
         } elseif(isset($_REQUEST['statistique'])) {
             include_once './template/statistique.php';
 
+        } elseif(isset($_REQUEST['home'])) {
+            include_once './template/home.php';
+
         }else {
             $logout =  new Logout();
             include_once './template/login.php';

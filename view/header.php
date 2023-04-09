@@ -1,5 +1,5 @@
 <header>
-    <a href="index.php?search">logo</a>
+    <a href="index.php?home">logo</a>
     <nav>
         <ul>
             <li><a href="index.php?search">search</a></li>
